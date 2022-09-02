@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(19, 18, 18);
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:  palevioletred;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid palevioletred;
+    background-image: url(/wp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 65%;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    padding-left: 2rem;
+}
+
+.right > h1 {
+    color: palevioletred;
+}
+
+
+
+
+
+
+
+
